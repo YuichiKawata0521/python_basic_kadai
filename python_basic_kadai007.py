@@ -7,8 +7,7 @@ array = ["月曜日は晴れです",
          "日曜日は雷雨です"
          ]
 
-# for i in range(len(array)):
-#     print(array[i])
+print(array[2])
 
 dictionary = {
     "mon" : "晴れ",
@@ -20,5 +19,4 @@ dictionary = {
     "sun" : "雷雨"
 }
 
-# for week, weather in dictionary.items():
-#     print(f"{week} : {weather}")
+print(dictionary["wed"])
